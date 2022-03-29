@@ -31,6 +31,7 @@ img{
 .button{
     display: inline-block;
     text-decoration: none;
+    text-transform: uppercase;
     padding: 16px 24px;
     background-color: #0A775F;
     border-radius: 100px;
@@ -69,7 +70,9 @@ img{
 
 /* SITE-HEADER */
 .site-header {
-    background-color: #F3D7B7;
+    background-color:#F3D7B7;
+    background-image: url(../img/group-fon.jpg);
+    background-position: center center;
 }
 
 .site-header-container {
@@ -121,10 +124,14 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 60px;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-content {
+    margin-left: 150px;
     width: 464px;
 }
 
@@ -156,18 +163,55 @@ img{
 
 
 /* COLLECTION */
-.site-collection {
+.index-collection-container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1440px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.site-collection-top-heading {
+.index-collection-fon{
+    background-color: #f5f5ec;
+    background-image: url(../img/rectangle-fon.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.index-collection-list{
+    margin: 0;
+    padding-left: 143px;
+    padding-right: 143px;
+}
+
+.index-collection-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.index-collection-item{
+    display: flex;
+    align-items: center;
+}
+
+
+.index-collection-part-piccollo-img{
+    flex-shrink: 0;
+    width: 450px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.index-collection-info{
+    flex-grow: 1;
+    padding-left: 117px;
+    padding-right: 117px;
+}
+
+.index-collection-top-heading {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 80;
@@ -180,41 +224,7 @@ img{
     color:#000;
 }
 
-.site-collection-pars {
-    padding-left: 143px;
-    padding-right: 143px;
-}
-
-.site-collection-part {
-    display: flex;
-    align-items: center;
-}
-
-.site-collection-part-dange-img {
-    width: 450px;
-    height: 375px;
-    margin-right: 117px;
-}
-
-.site-collection-part-gran-espresso-img{
-    width: 450px;
-    height: 375px;
-    margin-left: 117px;
-}
-
-.site-collection-part-piccollo-img{
-    width: 450px;
-    height: 375px;
-    margin-right: 117px;
-}
-
-.site-collection-part-planalto-img{
-    width: 450px;
-    height: 375px;
-    margin-left: 94px;
-}
-
-.site-collection-part-heading {
+.index-collection-part-heading {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
@@ -226,7 +236,7 @@ img{
     font-variant: small-caps;
 }
 
-.site-collection-part-text {
+.index-collection-part-text {
     margin-top:0 ;
     margin-bottom: 0;
     color: #333;
