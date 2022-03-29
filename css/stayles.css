@@ -245,3 +245,38 @@ img{
     font-size: 22px;
     line-height: 34px;
 }
+
+
+/* CHOISE */
+.choice-container{
+    padding-top: 0;
+}
+
+.choice{
+    padding-top: 50px;
+    background-image: url(../img/choose-bg.jpg);
+}
+
+.choice-heading{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.choice-link{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-left: 410px;
+    margin-right: 410px;
+    padding-bottom: 500px;
+}
