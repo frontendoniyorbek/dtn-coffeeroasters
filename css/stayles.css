@@ -1,3 +1,39 @@
+/* CUSTOM PROPS */
+:root{
+    --text-color: var(--text-color);
+}
+
+
+/* FONTS */
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/") format("woff2"),
+        url("../fonts/Roboto-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+        url("../fonts/Roboto-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        url("../fonts/Roboto-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* GLOBAL */
 html{
     box-sizing: border-box;
@@ -16,11 +52,11 @@ body{
     flex-direction: column;
     height: 100%;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 16px;
+    line-height: 1.75;
     font-family: "Roboto", "Arial",sans-serif;
     background-color: #fff;
-    color: #333;
+    color: var(--text-color);
 }
 
 img{
@@ -71,7 +107,7 @@ img{
 /* SITE-HEADER */
 .site-header {
     background-color:#F3D7B7;
-    background-image: url(../img/group-fon.jpg);
+    background-image: url(.../fonts/./img/group-fon.jpg);
     background-position: center center;
 }
 
@@ -91,6 +127,7 @@ img{
 .site-header-logo {
     margin-right: 8px;
 }
+
 
 /* SITENAV */
 .sitenav{
@@ -117,8 +154,9 @@ img{
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
-    color: #333;
+    color: var(--text-color);
 }
+
 
 
 /* HERO */
@@ -172,7 +210,7 @@ img{
 
 .index-collection-fon{
     background-color: #f5f5ec;
-    background-image: url(../img/rectangle-fon.jpg);
+    background-image: url(.../fonts/./img/rectangle-fon.jpg);
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -224,7 +262,7 @@ img{
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
-    color: #333;
+    color: var(--text-color);
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -235,7 +273,7 @@ img{
 .index-collection-part-text {
     margin-top:0 ;
     margin-bottom: 0;
-    color: #333;
+    color: var(--text-color);
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -250,7 +288,7 @@ img{
 
 .indext-features-inner {
     padding: 50px 30px;
-    background-image: url(../img/choose-bg.jpg);
+    background-image: url(.../fonts/./img/choose-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 700px;
 }
