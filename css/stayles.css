@@ -2,6 +2,8 @@
 :root{
     --text-color: var(--text-color);
     --accent-color-green: #0a775f;
+    --accent-color-green-80: rgb(10, 119, 95);
+    --accent-color-green-80: rgb(10, 119, 95);
     --outline-color:var(--accent-color-green);
 }
 
@@ -76,9 +78,7 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 16px 24px;
-    background-color: var(--accent-color-green);
     border-radius: 100px;
-    color: #fff;
     text-align: center;
     letter-spacing: 1px;
     font-variant: small-caps;
@@ -86,6 +86,7 @@ img{
     font-size: 16px;
     line-height: 19px;
     margin-top: 0;
+    white-space: nowrap;
 }
 
 .button:hover{
@@ -94,6 +95,12 @@ img{
 
 .button:active{
     opacity: 0.6;
+}
+
+.button-green{
+    background-color: var(--accent-color-green);
+    color: #fff;
+
 }
 /* CONTAINER */
 .container{
@@ -174,6 +181,7 @@ img{
     font-size: 12px;
     line-height: normal;
     color: var(--text-color);
+    white-space: nowrap;
 }
 
 .sitenav-link:hover{
@@ -183,47 +191,55 @@ img{
 
 
 /* HERO */
-.hero-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+.hero {
 }
 
-.hero-content {
-    margin-left: 150px;
-    width: 464px;
+.hero-container {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hero-info-wrapper{
+    width: 100%;
+    max-width: 730px;
+    padding-top: 116px;
+    padding-left: 150px;
+    padding-right: 116px;
+    padding-bottom: 100px;
 }
 
 .hero-content-heading {
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
-    line-height: 75px;
+    line-height: normal;
     color: #000;
     margin-top: 0;
     margin-bottom: 24px;
 }
 
 .hero-content-text {
+    margin: 0;
+    margin-bottom: 34px;
     font-size: 16px;
     line-height: 24px;
     color: #000;
     font-style: normal;
-    margin-top: 0;
+}
+
+.hero-content-tex:not(:last-child){
     margin-bottom: 34px;
 }
 
 .hero-content-img{
-    display: inline-block;
     width: 710px;
-    height: 696px;
-    margin-left: 116px;
+    height: 596px;
+    object-fit: cover;
 }
 
+.hero-img-index{
+    width: 696px;
+}
 
 /* COLLECTION */
 .index-container{
