@@ -2,8 +2,12 @@
 :root{
     --text-color: var(--text-color);
     --accent-color-green: #0a775f;
-    --accent-color-green-80: rgb(10, 119, 95);
-    --accent-color-green-80: rgb(10, 119, 95);
+    --accent-color-green-80: rgb(10, 119, 95, 0.8);
+    --accent-color-green-60: rgb(10, 119, 95, 0.6);
+    --accent-color-light-brown:#c99b67;
+    --accent-color-light-brown-80:rgb(201, 155, 103, 0.8);
+    --accent-color-light-brown-60:rgb(201, 155, 103, 0.6);
+    --light-brown:#f3d7b7;
     --outline-color:var(--accent-color-green);
 }
 
@@ -89,19 +93,36 @@ img{
     white-space: nowrap;
 }
 
-.button:hover{
-    opacity: 0.8;
-}
-
-.button:active{
-    opacity: 0.6;
-}
 
 .button-green{
     background-color: var(--accent-color-green);
     color: #fff;
 
 }
+
+.button-green:hover{
+    background-color: var(--accent-color-green-80);
+}
+
+.button-green:active{
+    background-color: var(--accent-color-green-60);
+}
+
+.button-brown{
+    background-color: var(--accent-color-light-brown-brown);
+    color: #fff;
+
+}
+
+.button-brown:hover{
+    background-color: var(--accent-color-light-brown-brown-80);
+}
+
+.button-brown:active{
+    background-color: var(--accent-color-light-brown-brown-60);
+}
+
+
 /* CONTAINER */
 .container{
     width: 100%;
@@ -120,7 +141,7 @@ img{
 
 /* SITE-HEADER-HERO-WRAPPER */
 .site-header-hero-wrapper{
-    background-color:#F3D7B7;
+    background-color:var(--light-brown);
     background-image: url(.../fonts/./img/group-fon.jpg);
 }
 
@@ -191,9 +212,6 @@ img{
 
 
 /* HERO */
-.hero {
-}
-
 .hero-container {
     display: flex;
     padding-left: 0;
