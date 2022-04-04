@@ -698,6 +698,145 @@ img{
 }
 
 
+
+/* MENU */
+.menu-wrapper{
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--light-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.menu-types {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-right: 364px;
+}
+
+.menu-types-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.menu-types-link:not(:last-child){
+    margin-bottom: 35px;
+}
+
+
+/* PREFERENTIAL-QUIZES */
+.preferential-quizes-wrapper {
+    margin-right: 144px;
+}
+
+.preferential-quizes {
+    width: 100%;
+    max-width: 660px;
+}
+
+.preferential-quizes-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preferential-quizes-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.drop-down {
+    background-color: #f8f8f8;
+    border: 0;
+}
+
+.drop-down-img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.preferential-quizes-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+    margin-left: -18px;
+    list-style: none;
+}
+
+.preferential-quizes-item {
+    margin-left: 18px;
+    flex-direction: column;
+    width: clac(100% / 3 - 18px);
+    flex-grow: 1;
+    background-color:rgba(10, 119, 95, 0.2)
+}
+
+.preferential-quizes-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+
+.preferential-quizes-content-heading {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.preferential-quizes-content-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+.order-summary {
+    text-align: right;
+}
+
+.definition-list {
+    background-color: var(--accent-color-light-brown);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.order-definition-term {
+    color: #fff;
+}
+.order-definition {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.selected-option {
+    color: #000;
+}
+
+
+
 /* RETINA-BG */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
