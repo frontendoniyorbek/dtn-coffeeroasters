@@ -498,6 +498,7 @@ img{
 .site-footer-wrapper {
     background-color: var(--light-brown);
     background-image: url(../img/footer-bg.jpg);
+    margin-top: 30px;
 }
 
 .footer {
