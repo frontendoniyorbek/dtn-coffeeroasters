@@ -146,7 +146,7 @@ img{
 /* SITE-HEADER-HERO-WRAPPER */
 .site-header-hero-wrapper{
     background-color:var(--light-brown);
-    background-image: url(.../fonts/./img/group-fon.jpg);
+    background-image: url(../img/group-fon.jpg);
 }
 
 
@@ -473,7 +473,7 @@ img{
     font-size: 64px;
     line-height: normal;
     margin-bottom: 45px;
-    content: "0"counter(how-it-works);
+    content: "0" counter(how-it-works);
 }
 
 .how-it-works-step-title {
@@ -494,6 +494,53 @@ img{
 }
 
 
+/* FOOTER */
+.site-footer-wrapper {
+    background-color: var(--light-brown);
+    background-image: url(../img/footer-bg.jpg);
+}
+
+.footer {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.site-footer-container {
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer-list{
+    margin-right: 331px;
+}
+
+.site-footer-social-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer-social-items {
+    display: flex;
+    margin-right: 30px;
+}
+
+.site-footer-social-networks-link {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.site-footer-social-networks-img {
+    width: 30px;
+    height: 30px;
+}
+
 /* RETINA-BG */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -513,8 +560,12 @@ only screen and (                min-resolution: 2dppx) {
         background-image: url(../img/rectangle-fon@2x.jpg);
     }
 
-    ..how-it-works-inner{
+    .how-it-works-inner{
         background-image: url(../img/salatvi-bg@2x.png);
+    }
+
+    .site-footer-wrapper{
+        background-image:url(../img/footer-bg@2x.jpg);
     }
 
 
