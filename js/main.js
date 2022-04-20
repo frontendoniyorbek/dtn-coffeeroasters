@@ -1,0 +1,1 @@
+const elLogoLink = document.querySelector('.sitenav-link');

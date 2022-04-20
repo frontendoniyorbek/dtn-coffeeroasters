@@ -270,6 +270,7 @@ img{
 /* COLLECTION */
 .index-container{
     padding-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .index-collection-fon{
@@ -347,13 +348,12 @@ img{
 
 /* INDEX-FEATURES  */
 .index-features {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .indext-features-inner {
     padding: 50px 30px;
     background-image: url(../img/choose-bg.jpg);
-    background-color: var(--accent-color-light-brown);
     background-repeat: no-repeat;
     background-size: 100% 700px;
 }
