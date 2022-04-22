@@ -161,7 +161,6 @@ img{
 
 /* SITE-HEADER-HERO-WRAPPER */
 .site-header-hero-wrapper{
-    position: relative;
     background-color:var(--light-brown);
     background-image: url(../img/group-fon.jpg);
 }
@@ -270,20 +269,24 @@ img{
     margin-bottom: 34px;
 }
 
+.hero-content-imgs{
+    position: relative;
+}
+
 .hero-content-img{
-    display: inline-block;
+    display:block;
     width: 710px;
-    height: 596px;
+    height: 696px;
     object-fit: cover;
 }
 
 .hero-index-img{
     position: absolute;
-    transform: rotate(-25deg);
-    left: 718px;
-    top: 23px;
+    display: inline-block;
     width: 160px;
     height: 160px;
+    top: -80px;
+    left: -80px;
     object-fit: cover;
 }
 
@@ -863,14 +866,6 @@ img{
 
 
 /* PREFERENTIAL-QUIZES */
-.preferential-quizes-wrapper {
-    margin-right: 144px;
-}
-
-.preferential-quizes {
-    width: 100%;
-    max-width: 660px;
-}
 
 .preferential-quizes-top {
     display: flex;

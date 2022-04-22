@@ -39,8 +39,10 @@
                 <h2 class="hero-content-heading">Create plan</h2>
                     <p class="hero-content-text">Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.</p>
             </div>
+            <div class="hero-content-imgs">
                 <img class="hero-content-img hero-img-index" src="./img/creat-plan.jpg" alt="Person's hand with iced coffee and cake on the table" width="740" height="696" srcset="./img/creat-plan.jpg 1x, ./img/creat-plan@2x.jpg 2x">
                 <img class="hero-index-img" src="./img/but.png" alt="but" width="160" height="160" srcset="./img/but.png 1x, ./img/but@2x.png 2x">
+            </div>
         </div>
     </div>
     </div>
@@ -95,178 +97,32 @@
                 </div>
 
                 <!-- PREFERENTIAL-QUIZES -->
-            <form class="preferential-quizes-wrapper" action="https://echo.htmlacademy.ru" method="POST">
-                <div class="preferential-quizes">
-                    <div class="preferential-quizes-top">
-                        <h2 class="preferential-quizes-heading">How do you drink your coffee?</h2>
-                        <button class="drop-down" type="button">
-                            <img class="drop-down-img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
-                        </button>
-                    </div>
-
-                    <ul class="preferential-quizes-list">
-                            <li class="preferential-quizes-item">
-                                <label for="1">
-                                    <input class="visually-hidden" type="radio" id="1" name="drink">
-                                        <div class="preferential-quizes-content">
-                                            <h4 class="preferential-quizes-content-heading">Capsule</h4>
-                                            <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
-                                        </div>
-                                </label>
-                            </li>
-
-                        <li class="preferential-quizes-item">
-                            <label for="2">
-                                <input class="visually-hidden" type="radio" id="2" name="drink">
-                                    <div class="preferential-quizes-content">
-                                        <h4 class="preferential-quizes-content-heading">Filter</h4>
-                                        <p class="preferential-quizes-content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
-                                    </div>
-                            </label>
-                        </li>
-
-                        <li class="preferential-quizes-item">
-                            <label for="3">
-                                <input class="visually-hidden" type="radio" id="3" name="drink">
-                                    <div  class="preferential-quizes-content">
-                                        <h4 class="preferential-quizes-content-heading">Espresso</h4>
-                                        <p class="preferential-quizes-content-text">Dense and finely ground beans for an intense, flavorful experience</p>
-                                    </div>
-                            </label>
-                        </li>
-                    </ul>
+            <form class="preferential-quizes-form" action="https://echo.htmlacademy.ru" method="POST">
+                <div class="preferential-quizes-top">
+                    <h2 class="preferential-quizes-heading">How do you drink your coffee?</h2>
+                    <button class="drop-down" type="button">
+                        <img class="drop-down-img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
+                    </button>
                 </div>
-
-                <div class="preferential-quizes">
-                    <div class="preferential-quizes-top">
-                        <h2 class="preferential-quizes-heading">What type of coffee?</h2>
-                        <button class="drop-down" type="button">
-                            <img class="drop-down-img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
-                        </button>
-                    </div>
-
-                    <ul class="preferential-quizes-list">
-                        <li class="preferential-quizes-item">
-                            <label for="4">
-                                <input class="visually-hidden"  type="radio" name="what_type" id="4">
-                                    <div class="preferential-quizes-content">
-                                        <h4 class="preferential-quizes-content-heading">Single Origin</h4>
-                                        <p class="preferential-quizes-content-text">Distinct, high quality coffee from a specific family-owned farm</p>
-                                    </div>
-                            </label>
-                        </li>
-
-                        <li class="preferential-quizes-item">
-                            <label for="6">
-                                <input class="visually-hidden" type="radio" name="what_type" id="5">
-                                    <div class="preferential-quizes-content">
-                                        <h4 class="preferential-quizes-content-heading">Decaf</h4>
-                                        <p class="preferential-quizes-content-text">Just like regular coffee, except the caffeine has been removed</p>
-                                    </div>
-                            </label>
-                        </li>
-
-                        <li class="preferential-quizes-item">
-                            <label for="6">
-                                <input class="visually-hidden"  type="radio" name="what_type" id="6">
-                                    <div class="preferential-quizes-content">
-                                        <h4 class="preferential-quizes-content-heading">Blended</h4>
-                                        <p class="preferential-quizes-content-text">Combination of two or three dark roasted beans of organic coffees</p>
-                                    </div>
-                            </label>
-                        </li>
-                    </ul>
+                <div>
+                    <label class="preferential-quizes-label">
+                        <input class="preferential-quizes-input" type="radio" name="radio1">
+                        <h3 class="preferential-quizes-content-heading">Capsule</h3>
+                        <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
+                    </label>
+                    <label class="preferential-quizes-label">
+                        <input class="preferential-quizes-input" type="radio" name="radio1">
+                        <h3 class="preferential-quizes-content-heading">Capsule</h3>
+                        <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
+                    </label>
+                    <label class="preferential-quizes-label">
+                        <input class="preferential-quizes-input" type="radio" name="radio1">
+                        <h3 class="preferential-quizes-content-heading">Capsule</h3>
+                        <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
+                    </label>
                 </div>
+            </form>
 
-                <div class="preferential-quizes">
-                    <div class="preferential-quizes-top">
-                        <h2 class="preferential-quizes-heading">Want us to grind them?</h2>
-                        <button class="drop-down" type="button">
-                            <img class="drop-down-img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
-                        </button>
-                    </div>
-
-                    <ul class="preferential-quizes-list">
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Wholebean</h4>
-                                <p class="preferential-quizes-content-text">Best choice if you cherish the full sensory experience</p>
-                            </div>
-                        </li>
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Filter</h4>
-                                <p class="preferential-quizes-content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
-                            </div>
-                        </li>
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Cafetiére</h4>
-                                <p class="preferential-quizes-content-text">Course ground beans specially suited for french press coffee</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="preferential-quizes">
-                    <div class="preferential-quizes-top">
-                        <h2 class="preferential-quizes-heading">How often should we deliver?</h2>
-                        <button class="drop-down" type="button">
-                            <img class="drop-down-img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
-                        </button>
-                    </div>
-
-                    <ul class="preferential-quizes-list">
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Every week</h4>
-                                <p class="preferential-quizes-content-text">$7.20 per shipment. Includes free first-class shipping.</p>
-                            </div>
-                        </li>
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Every 2 weeks</h4>
-                                <p class="preferential-quizes-content-text">$9.60 per shipment. Includes free priority shipping.</p>
-                            </div>
-                        </li>
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Every month</h4>
-                                <p class="preferential-quizes-content-text">$12.00 per shipment. Includes free priority shipping.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="preferential-quizes">
-                    <div class="preferential-quizes-top">
-                        <h2 class="preferential-quizes-heading">How do you drink your coffee?</h2>
-                        <button class="drop-down" type="button">
-                            <img class="drop-down-img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
-                        </button>
-                    </div>
-
-                    <ul class="preferential-quizes-list">
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Capsule</h4>
-                                <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
-                            </div>
-                        </li>
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Filter</h4>
-                                <p class="preferential-quizes-content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
-                            </div>
-                        </li>
-                        <li class="preferential-quizes-item">
-                            <div class="preferential-quizes-content">
-                                <h4 class="preferential-quizes-content-heading">Espresso</h4>
-                                <p class="preferential-quizes-content-text">Dense and finely ground beans for an intense, flavorful experience</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
 
                 <div class="order-summary">
                     <div class="definition-list">
