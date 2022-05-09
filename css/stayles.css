@@ -702,12 +702,12 @@ img{
 
 }
 
-.discussion-wrapper {
+.discussion__wrapper {
     width: 639px;
     padding-left: 143px;
 }
 
-.discussion-heading {
+.discussion__heading {
     margin-top: 0;
     margin-bottom: 24px;
     text-transform: uppercase;
@@ -717,14 +717,14 @@ img{
     line-height: 59px;
 }
 
-.discussion-text {
+.discussion__text {
     margin: 0;
     color: #fff;
     font-size: 18px;
     line-height: 30px;
 }
 
-.discussion-img {
+.discussion__img {
     position: absolute;
     right: 30px;
     bottom: 90px;
