@@ -172,7 +172,7 @@ img{
     padding-bottom: 40px;
 }
 
-.site-header-container {
+.site-header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,22 +180,22 @@ img{
     padding-right: 50px;
 }
 
-.site-header-link{
+.site-header__link{
     flex-shrink: 0;
     display: flex;
     text-decoration: none;
     margin-right: auto;
 }
 
-.site-header-link:hover{
+.site-header__link:hover{
     opacity: 0.8;
 }
 
-.site-header-link:active{
+.site-header__link:active{
     opacity: 0.6;
 }
 
-.site-header-img{
+.site-header__img{
     width: 235px;
     height: 24px;
     object-fit: cover;
@@ -203,18 +203,18 @@ img{
 
 
 /* SITENAV */
-.site-header-list {
+.site-header__list {
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.site-header-item:not(:last-child) {
+.site-header__item:not(:last-child) {
     margin-right: 40px;
 }
 
-.sitenav-link {
+.sitenav__link {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -225,20 +225,20 @@ img{
     white-space: nowrap;
 }
 
-.sitenav-link:hover{
+.sitenav__link:hover{
     color: var(--accent-color-green);
 }
 
 
 
 /* HERO */
-.hero-container {
+.hero__container {
     display: flex;
     padding-left: 0;
     padding-right: 0;
 }
 
-.hero-info-wrapper{
+.hero__info-wrapper{
     width: 100%;
     max-width: 730px;
     padding-top: 116px;
@@ -247,7 +247,7 @@ img{
     padding-bottom: 100px;
 }
 
-.hero-content-heading {
+.hero__content-heading {
     font-weight: 700;
     font-size: 64px;
     line-height: normal;
@@ -256,7 +256,7 @@ img{
     margin-bottom: 24px;
 }
 
-.hero-content-text {
+.hero__content-text {
     margin: 0;
     margin-bottom: 34px;
     font-size: 16px;
@@ -265,22 +265,22 @@ img{
     font-style: normal;
 }
 
-.hero-content-tex:not(:last-child){
+.hero__content-tex:not(:last-child){
     margin-bottom: 34px;
 }
 
-.hero-content-imgs{
+.hero__content-imgs{
     position: relative;
 }
 
-.hero-content-img{
+.hero__content-img{
     display:block;
     width: 710px;
     height: 696px;
     object-fit: cover;
 }
 
-.hero-index-img{
+.hero__index-img{
     position: absolute;
     display: inline-block;
     width: 160px;
