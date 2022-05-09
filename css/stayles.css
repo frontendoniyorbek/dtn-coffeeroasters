@@ -610,7 +610,7 @@ img{
     padding-bottom: 65px;
 }
 
-.site-footer-container {
+.footer__container {
     padding-left: 50px;
     padding-right: 20px;
     display: flex;
@@ -618,30 +618,30 @@ img{
     justify-content: space-between;
 }
 
-.site-footer-list{
+.footer__list{
     margin-right: 331px;
 }
 
-.site-footer-social-list {
+.footer__social-list {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.site-footer-social-items {
+.footer__social-items {
     display: flex;
     margin-right: 30px;
 }
 
-.site-footer-social-networks-link {
+.footer__social-networks-link {
     display: inline-block;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.site-footer-social-networks-img {
+.footer__social-networks-img {
     width: 30px;
     height: 30px;
 }
@@ -1001,7 +1001,7 @@ only screen and (                min-resolution: 2dppx) {
         background-image: url(../img/salatvi-bg@2x.png);
     }
 
-    .site-footer-wrapper{
+    .footer__wrapper{
         background-image:url(../img/footer-bg@2x.jpg);
     }
 
