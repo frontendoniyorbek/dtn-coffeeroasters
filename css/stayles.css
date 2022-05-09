@@ -492,7 +492,7 @@ img{
 
 
 /* HOW-IT-WORKS */
-.how-it-works-inner {
+.how-it-works__inner {
     position: relative;
     padding: 50px 30px;
     text-align: center;
@@ -500,7 +500,7 @@ img{
     background-image:url(../img/salatvi-bg.png);
 }
 
-.how-it-wors-inner-heading {
+.how-it-works__inner-heading {
     margin-top: 0;
     margin-bottom: 80px;
     text-transform: uppercase;
@@ -511,7 +511,7 @@ img{
     line-height: 59px;
 }
 
-.how-it-works-img{
+.how-it-works__img{
     position: absolute;
     top: 41px;
     right: 68px;
@@ -522,7 +522,7 @@ img{
 }
 
 
-.how-it-wors-list {
+.how-it-works__list {
     display: flex;
     margin: 0;
     padding: 0;
@@ -533,7 +533,7 @@ img{
     counter-reset: how-it-works;
 }
 
-.how-it-wors-item {
+.how-it-works__item {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -542,7 +542,7 @@ img{
     counter-increment: how-it-works;
 }
 
-.how-it-wors-item::before{
+.how-it-works__item::before{
     position: relative;
     z-index: 2;
     width: 60px;
@@ -553,7 +553,7 @@ img{
     content: "";
 }
 
-.how-it-wors-item:not(:last-child):after{
+.how-it-works__item:not(:last-child):after{
     position: absolute;
     top: 30px;
     left: 35px;
@@ -564,7 +564,7 @@ img{
     content: "";
 }
 
-.how-it-wors-info {
+.how-it-works__info {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -572,7 +572,7 @@ img{
     padding: 20px 20px 40px;
 }
 
-.how-it-wors-info::before {
+.how-it-works__info::before {
     align-self: flex-end;
     font-size: 64px;
     line-height: normal;
@@ -580,7 +580,7 @@ img{
     content: "0" counter(how-it-works);
 }
 
-.how-it-works-step-title {
+.how-it-works__step-title {
     max-width: 250px;
     font-weight: 500;
     font-size: 40px;
@@ -589,7 +589,7 @@ img{
     color: #333;
 }
 
-.how-it-works-step-text {
+.how-it-works__step-text {
     margin: 0;
     font-weight: 400;
     font-size: 18px;
