@@ -648,7 +648,7 @@ img{
 
 
 /* OUT-COMMITMENT */
-.our-commitment-wrapper{
+.our-commitment__wrapper{
     position: relative;
     display: flex;
     align-items: center;
@@ -659,7 +659,7 @@ img{
     background-color: var(--light-bg);
 }
 
-.our-commitment-img {
+.our-commitment__img {
     display: block;
     width: 360px;
     height: 364px;
@@ -667,11 +667,11 @@ img{
     margin-right: 185px;
 }
 
-.our-commitment-content {
+.our-commitment__content {
     width: 626px;
 }
 
-.our-commitment-heading {
+.our-commitment__heading {
     margin-top: 0;
     margin-bottom: 24px;
     text-transform: uppercase;
@@ -681,7 +681,7 @@ img{
     color: #000;
 }
 
-.our-commitment-text {
+.our-commitment__text {
     margin: 0;
     font-size: 18px;
     line-height: 30px;
