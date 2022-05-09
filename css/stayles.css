@@ -291,12 +291,12 @@ img{
 }
 
 /* COLLECTION */
-.index-container{
+.index__container{
     padding-bottom: 0;
     margin-bottom: 20px;
 }
 
-.index-collection-fon{
+.index-collection{
     position: relative;
     background-color: #f5f5ec;
     background-image: url(../img/rectangle-fon.jpg);
@@ -305,30 +305,30 @@ img{
 
 }
 
-.index-collection-list{
+.index-collection__list{
     margin: 0;
     padding-left: 143px;
     padding-right: 143px;
 }
 
-.index-collection-item:nth-child(even){
+.index-collection__item:nth-child(even){
     flex-direction: row-reverse;
 }
 
-.index-collection-item{
+.index-collection__item{
     display: flex;
     align-items: center;
 }
 
 
-.index-collection-part-piccollo-img{
+.index-collection__part-piccollo-img{
     flex-shrink: 0;
     width: 450px;
     height: 375px;
     object-fit: contain;
 }
 
-.index-collection-leaf-img{
+.index-collection__leaf-img{
     position: absolute;
     top: 0;
     left: -201px;
@@ -338,7 +338,7 @@ img{
     object-fit: cover;
 }
 
-.index-collection-part-piccollo-leaf-img{
+.index-collection__part-piccollo-leaf-img{
     position: absolute;
     z-index: 1;
     top: 685px;
@@ -349,7 +349,7 @@ img{
     object-fit: contain;
 }
 
-.index-collection-part-planalto-leaf-img{
+.index-collection__part-planalto-leaf-img{
     position: absolute;
     bottom: 170px;
     right: 1170px;
@@ -359,7 +359,7 @@ img{
     object-fit: contain;
 }
 
-.index-collection-leaf-img-2{
+.index-collection__leaf-img-2{
     position: absolute;
     z-index: 0;
     top: 832px;
@@ -369,13 +369,13 @@ img{
     object-fit: contain;
 }
 
-.index-collection-info{
+.index-collection__info{
     flex-grow: 1;
     padding-left: 117px;
     padding-right: 117px;
 }
 
-.index-collection-top-heading {
+.index-collection__top-heading {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 80;
@@ -388,7 +388,7 @@ img{
     color:#000;
 }
 
-.index-collection-part-heading {
+.index-collection__part-heading {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
@@ -400,7 +400,7 @@ img{
     font-variant: small-caps;
 }
 
-.index-collection-part-text {
+.index-collection__part-text {
     margin-top:0 ;
     margin-bottom: 0;
     color: var(--text-color);
