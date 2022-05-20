@@ -203,14 +203,14 @@ img{
 
 
 /* SITENAV */
-.site-header__list {
+.sitenav__list {
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.site-header__item:not(:last-child) {
+.sitenav__item:not(:last-child) {
     margin-right: 40px;
 }
 
