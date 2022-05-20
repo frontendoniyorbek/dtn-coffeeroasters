@@ -83,60 +83,160 @@
         <!-- MENU -->
         <section class="menu">
             <div class="container">
-            <div class="menu-wrapper">
-                <img class="index-collection-part-piccollo-leaf-img menu-piccollo-img" src="./img/fill.png" alt="fil-img" width="392" height="477" srcset="./img/fill.png 1x, ./img/fill@2x.png 2x">
-                <img class="index-collection-leaf-img-2 menu-leaf-img" src="./img/leaf.png" alt="leaf" width="253" height="215" srcset="./img/leaf.png 1x, ./img/leaf@2x.png 2x">
-                <img class="index-collection-leaf-img menu-img" src="./img/dange-barg.png" alt="barg" width="402" height="300" srcset="./img/dange-barg.png 1x, ./img/dange-barg@2x.png 2x">
-                <img class="index-collection-part-planalto-leaf-img menu-planato-img" src="./img/yaproq.png" alt="yaproq" width="316" height="269" srcset="./img/yaproq.png 1x, ./img/yaproq@2x.png 2x">
-                <!-- MENU-TYPES -->
-                <div class="menu-types">
-                    <a href="#" class="menu-types-link">01 Preferences</a>
-                    <a href="#" class="menu-types-link">02 Bean Type</a>
-                    <a href="#" class="menu-types-link">03 Quantity</a>
-                    <a href="#" class="menu-types-link">04 Grind Option</a>
-                    <a href="#" class="menu-types-link">05 Deliveries</a>
-                </div>
-
-                <!-- PREFERENTIAL-QUIZES -->
-            <form class="preferential-quizes-form" action="https://echo.htmlacademy.ru" method="POST">
-                <div class="preferential-quizes-top">
-                    <h2 class="preferential-quizes-heading">How do you drink your coffee?</h2>
-                    <button class="drop-down" type="button">
-                        <img class="drop-down-img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
-                    </button>
-                </div>
-                <div>
-                    <label class="preferential-quizes-label">
-                        <input class="preferential-quizes-input" type="radio" name="radio1">
-                        <h3 class="preferential-quizes-content-heading">Capsule</h3>
-                        <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
-                    </label>
-                    <label class="preferential-quizes-label">
-                        <input class="preferential-quizes-input" type="radio" name="radio1">
-                        <h3 class="preferential-quizes-content-heading">Capsule</h3>
-                        <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
-                    </label>
-                    <label class="preferential-quizes-label">
-                        <input class="preferential-quizes-input" type="radio" name="radio1">
-                        <h3 class="preferential-quizes-content-heading">Capsule</h3>
-                        <p class="preferential-quizes-content-text">Compatible with Nespresso systems and similar brewers</p>
-                    </label>
-                </div>
-            </form>
-
-
-                <div class="order-summary">
-                    <div class="definition-list">
-                        <div class="order-definition-term">Order Summary</div>
-                        <div class="order-definition">
-                            “I drink my coffee as <span class="selected-option">Filter</span> , with a <span class="selected-option">Decaf</span> type of bean. <span class="selected-option">250g</span> ground ala <span class="selected-option">Cafetiére</span> , sent to me <span class="selected-option">Every Week</span> .”
-                        </div>
+                <div class="menu-wrapper">
+                    <img class="index-collection-part-piccollo-leaf-img menu-piccollo-img" src="./img/fill.png" alt="fil-img" width="392" height="477" srcset="./img/fill.png 1x, ./img/fill@2x.png 2x">
+                    <img class="index-collection-leaf-img-2 menu-leaf-img" src="./img/leaf.png" alt="leaf" width="253" height="215" srcset="./img/leaf.png 1x, ./img/leaf@2x.png 2x">
+                    <img class="index-collection-leaf-img menu-img" src="./img/dange-barg.png" alt="barg" width="402" height="300" srcset="./img/dange-barg.png 1x, ./img/dange-barg@2x.png 2x">
+                    <img class="index-collection-part-planalto-leaf-img menu-planato-img" src="./img/yaproq.png" alt="yaproq" width="316" height="269" srcset="./img/yaproq.png 1x, ./img/yaproq@2x.png 2x">
+                    <!-- MENU-TYPES -->
+                    <div class="menu-types">
+                        <a href="#" class="menu-types-link">01 Preferences</a>
+                        <a href="#" class="menu-types-link">02 Bean Type</a>
+                        <a href="#" class="menu-types-link">03 Quantity</a>
+                        <a href="#" class="menu-types-link">04 Grind Option</a>
+                        <a href="#" class="menu-types-link">05 Deliveries</a>
                     </div>
-                    <a class="button button-green button-summary" href="#">Create me plan</a>
+
+                            <!-- PREFERENTIAL-QUIZES -->
+                        <form class="preferential-quizes-form preferential-quizes" action="https://echo.htmlacademy.ru" method="POST">
+                            <div class="preferential-quizes__top">
+                                <h2 class="preferential-quizes__heading">How do you drink your coffee?</h2>
+                                <button class="drop-down" type="button">
+                                    <img class="drop-down__img" src="./img/drop-down.png" alt="drop-down-button" width="40" height="40" srcset="./img/drop-down.png 1x, ./img/drop-down@2x.png 2x">
+                                </button>
+                            </div>
+                            <div class="preferential-quizes__list">
+                                    <label class="preferential-quizes-form__label">
+                                        <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                        <span>
+                                            <h3 class="preferential-quizes__content-heading">Capsule</h3>
+                                            <p class="preferential-quizes__content-text">Compatible with Nespresso systems and similar brewers</p>
+                                        </span>
+                                    </label>
+                                    <label class="preferential-quizes-form__label">
+                                        <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                        <span>
+                                            <h3 class="preferential-quizes__content-heading">Filter</h3>
+                                            <p class="preferential-quizes__content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                        </span>
+                                    </label>
+                                    <label class="preferential-quizes-form__label">
+                                        <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                        <span>
+                                            <h3 class="preferential-quizes__content-heading">Espresso</h3>
+                                            <p class="preferential-quizes__content-text">Dense and finely ground beans for an intense, flavorful experience</p>
+                                        </span>
+                                    </label>
+                            </div>
+
+                            <div class="preferential-quizes__list">
+                                <label class="preferential-quizes-form__label">
+                                    <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                    <span>
+                                        <h3 class="preferential-quizes__content-heading">Capsule</h3>
+                                        <p class="preferential-quizes__content-text">Compatible with Nespresso systems and similar brewers</p>
+                                    </span>
+                                </label>
+                                <label class="preferential-quizes-form__label">
+                                    <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                    <span>
+                                        <h3 class="preferential-quizes__content-heading">Filter</h3>
+                                        <p class="preferential-quizes__content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                    </span>
+                                </label>
+                                <label class="preferential-quizes-form__label">
+                                    <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                    <span>
+                                        <h3 class="preferential-quizes__content-heading">Espresso</h3>
+                                        <p class="preferential-quizes__content-text">Dense and finely ground beans for an intense, flavorful experience</p>
+                                    </span>
+                                </label>
+                        </div>
+
+                        <div class="preferential-quizes__list">
+                            <label class="preferential-quizes-form__label">
+                                <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                <span>
+                                    <h3 class="preferential-quizes__content-heading">Capsule</h3>
+                                    <p class="preferential-quizes__content-text">Compatible with Nespresso systems and similar brewers</p>
+                                </span>
+                            </label>
+                            <label class="preferential-quizes-form__label">
+                                <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                <span>
+                                    <h3 class="preferential-quizes__content-heading">Filter</h3>
+                                    <p class="preferential-quizes__content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                </span>
+                            </label>
+                            <label class="preferential-quizes-form__label">
+                                <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                                <span>
+                                    <h3 class="preferential-quizes__content-heading">Espresso</h3>
+                                    <p class="preferential-quizes__content-text">Dense and finely ground beans for an intense, flavorful experience</p>
+                                </span>
+                            </label>
+                    </div>
+
+                    <div class="preferential-quizes__list">
+                        <label class="preferential-quizes-form__label">
+                            <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                            <span>
+                                <h3 class="preferential-quizes__content-heading">Capsule</h3>
+                                <p class="preferential-quizes__content-text">Compatible with Nespresso systems and similar brewers</p>
+                            </span>
+                        </label>
+                        <label class="preferential-quizes-form__label">
+                            <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                            <span>
+                                <h3 class="preferential-quizes__content-heading">Filter</h3>
+                                <p class="preferential-quizes__content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                            </span>
+                        </label>
+                        <label class="preferential-quizes-form__label">
+                            <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                            <span>
+                                <h3 class="preferential-quizes__content-heading">Espresso</h3>
+                                <p class="preferential-quizes__content-text">Dense and finely ground beans for an intense, flavorful experience</p>
+                            </span>
+                        </label>
                 </div>
 
-            </div>
-            </div>
+                <div class="preferential-quizes__list">
+                    <label class="preferential-quizes-form__label">
+                        <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                        <span>
+                            <h3 class="preferential-quizes__content-heading">Capsule</h3>
+                            <p class="preferential-quizes__content-text">Compatible with Nespresso systems and similar brewers</p>
+                        </span>
+                    </label>
+                    <label class="preferential-quizes-form__label">
+                        <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                        <span>
+                            <h3 class="preferential-quizes__content-heading">Filter</h3>
+                            <p class="preferential-quizes__content-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                        </span>
+                    </label>
+                    <label class="preferential-quizes-form__label">
+                        <input class="preferential-quizes-form__input visually-hidden" type="radio" name="radio1">
+                        <span>
+                            <h3 class="preferential-quizes__content-heading">Espresso</h3>
+                            <p class="preferential-quizes__content-text">Dense and finely ground beans for an intense, flavorful experience</p>
+                        </span>
+                    </label>
+                </div>
+
+                            <div class="order-summary">
+                                <div class="definition-list">
+                                    <div class="order-definition-term">Order Summary</div>
+                                    <div class="order-definition">
+                                        “I drink my coffee as <span class="selected-option">Filter</span> , with a <span class="selected-option">Decaf</span> type of bean. <span class="selected-option">250g</span> ground ala <span class="selected-option">Cafetiére</span> , sent to me <span class="selected-option">Every Week</span> .”
+                                    </div>
+                                </div>
+                                <a class="button button-green button-summary" href="#">Create me plan</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
