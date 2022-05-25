@@ -946,7 +946,6 @@ img{
     padding-right: 12px;
     padding-left: 16px;
     color: var(--text-color);
-    /* border: 2px solid red; */
 }
 
 .preferential-quizes__content-heading {
@@ -990,6 +989,124 @@ img{
 
 .selected-option {
     color: #000;
+}
+
+
+/* MODAL */
+.modal {
+    /* display: none; */
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__open {
+    display: block;
+}
+
+.modal__dialog {
+    width: 100%;
+    max-width: 561px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 79px;
+    padding-bottom: 79px;
+}
+
+.modal__content {
+    position: relative;
+    z-index: 1;
+    background-color: #f8f8f2;
+}
+
+.modal__close {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.modal__close:hover {
+    opacity: 0.8;
+}
+
+.modal__close:active {
+    opacity: 0.6;
+}
+
+.modal-close__icon {
+    display: block;
+}
+
+.modal__heading {
+    margin: 0;
+    padding: 19px 210px 19px 30px;
+    padding-top: 19px;
+    margin-top: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+    background-color: var(--accent-color-light-brown);
+}
+
+.modal-info-wrapper {
+    padding: 50px 30px;
+}
+
+.modal-info {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000;
+    font-variant: small-caps;
+}
+
+.modal-info__option {
+    display: inline-block;
+    color: var(--accent-color-green);
+}
+
+.modal-info-text {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    mix-blend-mode: normal;
+    color: #333;
+    opacity: 0.8;
+}
+
+.modal__action-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.modal__price {
+    color: #000;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.modal__action {
+    white-space: nowrap;
 }
 
 
