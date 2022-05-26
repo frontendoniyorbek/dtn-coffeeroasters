@@ -9,4 +9,4 @@ if (elModalClose) {
 
 setTimeout (function () {
   elModal.classList.add('modal__open');
-}, 3000);
+}, 30000);
