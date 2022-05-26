@@ -884,18 +884,21 @@ img{
 .preferential-quizes__top {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
+
+
 
 .preferential-quizes__heading {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 0;
     margin-right: 44px;
 }
 
 .drop-down {
+    display: inline-block;
     margin: 0;
     background-color: #f8f8f8;
     border: 0;
@@ -930,11 +933,13 @@ img{
 
 .preferential-quizes-form__label {
     min-width: 208px;
+    min-height: 220px;
 }
 
 .preferential-quizes-form__label span {
     height: 100%;
     display: flex;
+
     flex-direction: column;
     align-items: flex-start;
     flex-grow: 1;
@@ -961,6 +966,10 @@ img{
     margin: 0;
     font-size: 18px;
     line-height: 24px;
+}
+
+.preferential-quizes-js {
+    display: none;
 }
 
 .order-summary {
