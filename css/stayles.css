@@ -1057,16 +1057,32 @@ img{
     display: block;
 }
 
+.close-btn {
+    border: 0;
+    background: transparent;
+    font-family: inherit;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    color: #222;
+}
+
+.modal__top {
+    background-color: var(--accent-color-light-brown);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 30px 19px 30px;
+}
+
 .modal__heading {
     margin: 0;
-    padding: 19px 210px 19px 30px;
     padding-top: 19px;
     margin-top: 0;
     color: #fff;
     font-weight: 700;
     font-size: 44px;
     line-height: 52px;
-    background-color: var(--accent-color-light-brown);
 }
 
 .modal-info-wrapper {
@@ -1118,6 +1134,9 @@ img{
     white-space: nowrap;
 }
 
+.hidden {
+    display: none;
+}
 
 
 /* RETINA-BG */
